@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1643905849 source:c:\users\ssingh21\documents\abstractsort\main.cpp
+	<iostream>
+	"Increasing.h"
+	"Decreasing.h"
+
+1643905721 c:\users\ssingh21\documents\abstractsort\abstractsort.h
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1643904465 source:c:\users\ssingh21\documents\abstractsort\decreasing.h
+	<iostream>
+	"AbstractSort.h"
+
+1643904605 source:c:\users\ssingh21\documents\abstractsort\increasing.h
+
+1643905744 c:\users\ssingh21\documents\abstractsort\increasing.h
+	"AbstractSort.h"
+
+1643905863 c:\users\ssingh21\documents\abstractsort\decreasing.h
+	"AbstractSort.h"
+
