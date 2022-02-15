@@ -1,0 +1,9 @@
+Algorithms - Steps to get Desired Result
+           - Deterministic Number of Steps
+           - Ranking by BigO - notation
+           
+Example:
+1. SORTING
+    - Input : Ordinal Values
+    - Result: Monotonic Values
+    - 
