@@ -1,0 +1,12 @@
+Data Structures & Algorithms - Course Contents
+- Pointers
+- Classes
+- Virtual Function 
+- ADTs - Abstract Classes
+- Templates
+  * List as Array and Linkedlist
+    -- Unordered
+    -- Ordered 
+- Iterators (Not in D.S)
+- Stacks (Array & Linkedlist) 
+- Queues (Array & Linkedlist)
