@@ -1,0 +1,7 @@
+Outline for Determining Algorithms Effeciency:
+  - Decide on the input size:n
+  - Identify the basic operations
+  - Determine best, average, worst case cases
+  - Set up a sum for the number of that operations occurs 
+  - Show the order of growth - 1, N, logn, nlogn
+  
