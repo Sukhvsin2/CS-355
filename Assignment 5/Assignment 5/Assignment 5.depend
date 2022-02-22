@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1645557299 source:c:\users\ssingh21\desktop\assignment 5\assignment 5\main.cpp
+	<iostream>
+	"ArrayList.h"
+
+1645558117 c:\users\ssingh21\desktop\assignment 5\assignment 5\arraylist.h
+	<iostream>
+	<stdio.h>
+	<time.h>
+
