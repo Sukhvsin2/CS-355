@@ -1,13 +1,13 @@
 #include<iostream>
-#include<stdio.h>
-#include<time.h>
+#include<cstdlib>
+#include <unistd.h>
 
 using namespace std;
 
 class ArrayList{
-    public:
     int *arr;
-    ArrayList(int size=5000){
+    public:
+    ArrayList(int size=5){
         arr = new int[size];
         initlizeArray(arr, size);
     }
@@ -16,15 +16,26 @@ class ArrayList{
     }
     void initlizeArray(int *arr, int size){
         srand(time(0));
+        // waiting for time change and seed change
+        sleep(1);
+        // end
         for(int i=0;i<size;i++){
-            arr[i] = rand() % 5000 + 1;
+            arr[i] = rand() % 5 + 1;
         }
     }
     ArrayList operator=(ArrayList &obj){
-        ArrayList newList;
-        for(int i=0;i<5000;i++){
-            newList.arr[i] = arr[i];
+        copy(obj);
+        return *this;
+    }
+    void copy(ArrayList &obj){
+        for(int i=0;i<5;i++){
+            obj.arr[i] = arr[i];
         }
-        return newList;
+    }
+    void print(){
+        for(int i=0;i<5;i++){
+            cout<<arr[i]<<" ";
+        }
+        cout<<endl;
     }
 };
