@@ -28,8 +28,9 @@ class ArrayList{
         return *this;
     }
     void copy(ArrayList &obj){
+        cout<<"Copy function\n";
         for(int i=0;i<5;i++){
-            obj.arr[i] = arr[i];
+            arr[i] = obj.arr[i];
         }
     }
     void print(){
