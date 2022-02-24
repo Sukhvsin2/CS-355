@@ -9,11 +9,9 @@ class ArrayList{
     int *arr, size;
     public:
     ArrayList(int size=5){
+        this->size = size;
         arr = new int[size];
         initlizeArray(arr, size);
-    }
-    int* getArr(){
-        return arr;
     }
     void initlizeArray(int *arr, int size){
         srand(time(0));
@@ -34,29 +32,31 @@ class ArrayList{
             arr[i] = obj.arr[i];
         }
     }
-    void bubbleSort(int *arr, size){
-        for(int i=0;i<size-1;i++){
-            for(int j=0;j<size-i-1;j++){
-                if(arr[j] > arr[j+1]){
-                    swap(arr[i],arr[j]);
-                }
-            }
-        }
+    void swap(int *a, int *b){
+        int temp = *a;
+        *a = *b;
+        *b = temp;
     }
-    void selectionSort(int *arr, size){
+    void bubbleSort() { 
+        for (int i = 0; i < size-1; i++)
+            for (int j = 0; j < size-i-1; j++) 
+                if (arr[j] > arr[j+1]) 
+                    swap(&arr[j], &arr[j+1]); 
+    } 
+    void selectionSort(){
         int maxIndex = 0;
         for(int i=size-1;i>=0;i--){
             maxIndex = 0;
             for(int j=0; j<=i;j++){
                 if(arr[j] > arr[maxIndex] ) maxIndex= j;
             }
+            if(maxIndex != i) swap(&arr[i], &arr[maxIndex]);
         }
-        if(maxIndex != i) swap(arr[i], arr[maxIndex]);
     }
-    void insertionSort(int *arr, size){
-        for(int i=0;i<size-1;i+){
-            for(int){
-
+    void insertionSort(){
+        for(int i=0;i<size-1;i++){
+            for(int j=i; j>=0; j--){
+                if(arr[j] < arr[j-1]) swap(&arr[j], &arr[j-1]);
             }
         }
     }
