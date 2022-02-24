@@ -1,0 +1,15 @@
+CREATING ALGORITHMS
+  - Understand the Problem
+    - Input
+    - Ouput
+    - Relation B/W Input and Output
+    - Problem Space
+  - Express Algorithm
+    - Language Based
+  - Prove Correctness
+    - Testing
+      - Emeprical Tests
+      - Analytical Testing - Building a mathematical model to test cases
+  - Efficency
+    - Algorithm Analysis
+      - Asymptotic Growth
