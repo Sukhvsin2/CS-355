@@ -1,0 +1,7 @@
+Algorithmic Design -> PARADIGMS
+- Space & Time TradeOff
+- Brute Force
+- Divide and Conqure
+- Transform and Conqure
+- Greedy Algorithm
+- Dynamic Programming
