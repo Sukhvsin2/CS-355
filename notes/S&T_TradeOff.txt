@@ -1,0 +1,10 @@
+Space & Trade Off
+- Pre Structure
+- Hashing 
+  
+
+Dictionary
+Conceptinal Data Structure that allows
+  - Search
+  - Insert
+  - Delete
