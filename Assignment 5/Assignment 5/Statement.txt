@@ -1,0 +1,25 @@
+Camparison Criteria for Sorting Algorithms:
+
+1. Time Complexity: The best case, average case, worst case going to have a diffrent run time complexity.
+As comparison to bubble sort has a best case of O(n) which makes it faster than other General Algorithms 
+like, Insertion and Selection.
+
+2. Special Cases: if the algorithm preserve the relative ordering of elemts which means that if same element
+is present in the list which makes it equal to other elements so it should be sorted or removed or any other
+operation on it.
+
+3. Basic Operation of Sorting Algorithms: Number of comparisons and swaping operation are the main thing to
+focus. That how expensive are there operation while comparing with other items.
+
+4. Problem Complexity: How algorithm grows as n (Dataset) grows or shrinks.
+
+N^2 time Algorithms:
+    - The nested loops: n outer-loops, and with inner loop could be n/2 on average.
+    - Comparisons of all pairs of elements so it will be n*(n-1)/2
+
+
+What I feel:
+  I never thought about how many comparisons it gonna be for these N^2 algorithms.
+  I usually considered it all equal algorithms. But, after looking at the result I was
+  really impressed by the performance of Selection Sort.
+
