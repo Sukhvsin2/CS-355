@@ -1,0 +1,6 @@
+Basic Operation: Single Clock Cycle (Primitive Operation)
+  - Pick only one
+    1. Don't pick a composite operation
+    2. Choose the single operation that's going to happen the most.
+    3. Pick the more complex
+    3. Pick the most relevent 
