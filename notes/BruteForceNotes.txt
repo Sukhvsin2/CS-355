@@ -1,0 +1,13 @@
+Why Brute Force?
+  - It's easy to conceptualize & easy to code!
+  - Works for a wide range of problems.
+  - Works well for small data set.
+  - More Efforts in design may not be justified.
+  - it works as a YARDSTICK - always have a simple solution in Bruteforce while comparising to harder problems.
+  
+  
+Why no Brute Force?
+  - You'll never get a "Elegent" Algorithm out of it.
+  
+  
+  
