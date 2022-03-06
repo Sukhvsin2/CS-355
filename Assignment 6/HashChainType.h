@@ -59,6 +59,8 @@ void hashChainType<elemType>::search(const elemType& rec, bool& found){
 template <class elemType>
 void hashChainType<elemType>::remove(const elemType& rec){
 	//WRITE CODE:: remove an item from the hash table
+	elemType key = this->getHash(rec);
+	this->HTable[key]->deleteNode(rec);
 }
 template <class elemType>
 void hashChainType<elemType>::print() const{
