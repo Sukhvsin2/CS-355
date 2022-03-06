@@ -4,7 +4,7 @@ using namespace std;
 #include "HashChainType.h"
 
 int main(){
-	hashChainType<int> myHT(10);
+	hashChainType<int> myHT(13);
 
 	for(int i=0; i<100; i++){
 		myHT.insert(i);

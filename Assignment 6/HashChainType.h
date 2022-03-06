@@ -38,6 +38,17 @@ public:
 template <class elemType>
 void hashChainType<elemType>::insert(const elemType& rec){
 	//WRITE CODE::insert into the hash table
+	// Hash key
+	elemType key = this->getHash(rec);
+
+	unorderedLinkedList<elemType> *index = this->HTable[this->getHash(rec)];
+	
+	if(index == nullptr){
+		index = new unorderedLinkedList<elemType>();
+	}
+	this->HTable[this->getHash(rec)] = index;
+
+	index->insertLast(rec);
 }
 template <class elemType>
 void hashChainType<elemType>::search(const elemType& rec, bool& found){
@@ -50,6 +61,13 @@ void hashChainType<elemType>::remove(const elemType& rec){
 template <class elemType>
 void hashChainType<elemType>::print() const{
 	//WRITE CODE:: output the values in the hash table.
+	for(int i=0;i<this->HTSize;i++){
+		if(this->HTable[i] != nullptr){
+			this->HTable[i]->print();
+		}
+		cout<<endl;
+	}
+	cout<<endl;
 }
 
 #endif
