@@ -53,6 +53,8 @@ void hashChainType<elemType>::insert(const elemType& rec){
 template <class elemType>
 void hashChainType<elemType>::search(const elemType& rec, bool& found){
 	//WRITE CODE:: search for an item in the hash table
+	elemType key = this->getHash(rec);
+	found = this->HTable[key]->search(rec);
 }
 template <class elemType>
 void hashChainType<elemType>::remove(const elemType& rec){
