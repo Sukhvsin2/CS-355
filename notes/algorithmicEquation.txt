@@ -1,0 +1,4 @@
+T(n) E O(g(n))
+
+T(n) -> Function states how many basic operation will be perform. 
+g(n) -> Asymptotic Function
