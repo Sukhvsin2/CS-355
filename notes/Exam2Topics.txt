@@ -1,10 +1,10 @@
   - Design Paradigms
     * Brute Force - Understanding, Algorithms - examples
     * Time & Space
-      - Hashing - Collison, Chainning - open and close, Z-ways, Dictionary, Efficency, affect & effects
+      - Hashing - Collison, Chaining - open and close, Z-ways, Dictionary, Efficiency, affect & effects
   - Sorting Algorithms
   - Algorithmic Analysis
   - Steps require for non recursive & recursive algorithm
-  - Relationship b/w basic operation and efficency of an algorithm
+  - Relationship b/w basic operation and efficiency of an algorithm
   - Growth of an Algorithm 
-  - Imperical Analysis 
+  - Empirical Analysis 
