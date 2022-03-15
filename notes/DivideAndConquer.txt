@@ -1,0 +1,9 @@
+Divide and Conquer:
+ - Divide the Instance into 2 or more smaller instance space.
+ - Solve the smaller instance recursively.
+   - Recursion Calls
+   - Exit Case
+ - Obtain solution by combining.
+ 
+ MergeSort:
+  - 
