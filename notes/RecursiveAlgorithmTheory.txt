@@ -1,0 +1,11 @@
+Non Recursive Algorithm:
+  - Determine Basic Operations
+  - Determine The Input Size 
+  - Determine Structure at best, worst, avegrage case
+  - Determine function that tells how many times the basic operation happens in terms of n
+    input size.
+  - Determine a asymptotic limit for the grwoth rate of the function in point(4). -> T(n) bounded above g(n).
+  
+Recursive Algorithm:
+  - Count the number of recursive calls * the number of basic operations per recursive call.
+  
