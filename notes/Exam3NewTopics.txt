@@ -1,0 +1,13 @@
+- Recursion
+  - Merge Sort -
+                  - Optimal Sorting Algorithms & Partiton Algorithms
+  - Quick Sort - 
+  
+- Binary Search Tree
+  - Balanced BST
+    - AVL Trees
+      - Rotation, search, balancing, etc.
+      
+- Heap / Heap Sort
+  - Operations
+  
