@@ -1,0 +1,51 @@
+Solutions to wrong answers:
+
+  Ques4 : 
+    Heapify: Bottom-up Max-heap
+      array: 18, 40, 16, 82, 64, 67, 57, 50, 37, 47, 72, 14, 17, 27, 35
+      
+      
+   Tree:
+                        18
+          40                            16
+     82       64                    67      57 
+  50    37  47  72                14  17  27  35
+  
+  
+  change of 64 subtree
+                         18
+          40                            16
+     82       72                    67      57 
+  50    37  47  64                14  17  27  35
+  
+  change of 16 with 67, and then 16 with 17
+                         18
+          40                            67
+     82       72                    17      57 
+  50    37  47  64                14  16  27  35
+  
+  
+  change of 40 with 82, and then 40 with 50
+  
+                         18
+          82                            67
+     50       72                    17      57 
+  40    37  47  64                14  16  27  35
+  
+ change 18 with 82, 18 with 72, 18 with 64.
+ 
+                         82
+          72                            67
+     50       64                    17      57 
+  40    37  47  18                14  16  27  35
+  
+b)
+Question: Relevant quations?
+            - last non-leaf node?
+            - Right/ left child?
+            - Expensive to build? : O(n*logn)
+              - height? : log*n
+            
+------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+  
+  
